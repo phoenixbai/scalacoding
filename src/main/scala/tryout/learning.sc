@@ -1,12 +1,4 @@
-import proinscala.chap4._
-
-val acc = new ChecksumAccumulator
-acc.add("1".toByte)
-println("1".toByte)
-
-val sum = acc.sum
-println(~(sum & 0xFF))
-
-println(~(sum & 0xFF) + 1)
-
-acc.checksum()
+import proinscala.chap6._
+val x = new Rational(3,4)
+val y = new Rational(5,7)
+val z = x add y
